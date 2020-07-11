@@ -1,6 +1,5 @@
 # EPJ
-matlab details for EPJ Quantum technology
-%% calculate the time-evolution of the probability from different intial states
+%matlab details for EPJ Quantum technology
 clear;
 J=1;
 mft=0;
@@ -21,7 +20,7 @@ mft=0;
 norm=0;
 tau0=0;
 c=11+2*cc;
-d=3+2*cc;%the hopping strength between different structure
+d=3+2*cc;
 N=c; % the number of structures
 H=zeros(N,N); % the hamiltonian
 
